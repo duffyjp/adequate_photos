@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  path_name: MyString
+  file_name: MyString
+  md5: MyString
+  perceptual_hash: MyString
+  status: MyString
+  width: 1
+  height: 1
+  color: MyString
+  file_created_at: MyString
+
+two:
+  path_name: MyString
+  file_name: MyString
+  md5: MyString
+  perceptual_hash: MyString
+  status: MyString
+  width: 1
+  height: 1
+  color: MyString
+  file_created_at: MyString

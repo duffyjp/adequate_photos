@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Path name:</strong>
+  <%= @photo.path_name %>
+</p>
+
+<p>
+  <strong>File name:</strong>
+  <%= @photo.file_name %>
+</p>
+
+<p>
+  <strong>Md5:</strong>
+  <%= @photo.md5 %>
+</p>
+
+<p>
+  <strong>Perceptual hash:</strong>
+  <%= @photo.perceptual_hash %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @photo.status %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @photo.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @photo.height %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @photo.color %>
+</p>
+
+<p>
+  <strong>File created at:</strong>
+  <%= @photo.file_created_at %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

@@ -1,0 +1,29 @@
+<%= form_for(@import_path) do |f| %>
+  <% if @import_path.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@import_path.errors.count, "error") %> prohibited this import_path from being saved:</h2>
+
+      <ul>
+      <% @import_path.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :path_name %><br>
+    <%= f.text_field :path_name %>
+  </div>
+  <div class="field">
+    <%= f.label :file_count %><br>
+    <%= f.text_field :file_count %>
+  </div>
+  <div class="field">
+    <%= f.label :total_size %><br>
+    <%= f.text_field :total_size %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

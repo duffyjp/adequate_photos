@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+ImportPath.create(path_name: "/Users/jpd800/Rails/duffy.jp/spec/fixtures")

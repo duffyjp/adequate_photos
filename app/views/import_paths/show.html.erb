@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Path name:</strong>
+  <%= @import_path.path_name %>
+</p>
+
+<p>
+  <strong>File count:</strong>
+  <%= @import_path.file_count %>
+</p>
+
+<p>
+  <strong>Total size:</strong>
+  <%= @import_path.total_size %>
+</p>
+
+<%= link_to 'Edit', edit_import_path_path(@import_path) %> |
+<%= link_to 'Back', import_paths_path %>
